@@ -11,9 +11,9 @@ import com.xperience.citylist.XperienceCityList;
 public class Database {
 
 	Connection conn = null;
-//	private String URL = "jdbc:sqlserver://rm7fxe2rir.database.windows.net:1433";
-//	private String UN = "XP_Admin@rm7fxe2rir";
-//	private String PW = "Adm!n1234";
+	private String URL = "";
+	private String UN = "";
+	private String PW = "";
 	
 	public Connection Conn() throws ClassNotFoundException, SQLException{
 		Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");	
